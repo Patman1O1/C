@@ -4,6 +4,8 @@
 cmake_minimum_required(VERSION @CMAKE_VERSION@)
 project(@LIBRARY_NAME@-tests LANGUAGES CXX)
 
+set(CXX_STANDARD @CXX_STANDARD@)
+
 
 #----------------------------------------------------------------------------------------------------------------------
 # Settings and Options
