@@ -1,0 +1,5 @@
+#ifndef @LIBRARY_NAME_UPPER@_H
+#define @LIBRARY_NAME_UPPER@_H
+
+
+#endif // @LIBRARY_NAME_UPPER@_H
