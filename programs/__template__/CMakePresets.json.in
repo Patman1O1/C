@@ -35,7 +35,7 @@
   "buildPresets": [
     {
         "name": "default",
-        "configurePreset": "@LIBRARY_NAME@",
+        "configurePreset": "@PROGRAM_NAME@",
         "configuration": "Default",
         "targets": ["all"]
     }
