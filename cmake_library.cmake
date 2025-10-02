@@ -85,14 +85,12 @@ configure_file(
         @ONLY
 )
 
-# Configure ${LIBRARY_NAME}/src (if ${LIBRARY_TYPE} is NOT INTERFACE)
-if(NOT LIBRARY_TYPE MATCHES "INTERFACE")
-    configure_file(
-            "${TEMPLATE_DIR}/src/__template__.c.in"
-            "${LIBRARY_SOURCE_DIR}/src/${LIBRARY_NAME}.c"
-            @ONLY
-    )
-endif()
+# Configure ${LIBRARY_NAME}/src
+configure_file(
+        "${TEMPLATE_DIR}/src/__template__.c.in"
+        "${LIBRARY_SOURCE_DIR}/src/${LIBRARY_NAME}.c"
+        @ONLY
+)
 
 # Configure ${LIBRARY_NAME}/src
 configure_file(
